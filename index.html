@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="Part2">
+<head>
+	<meta charset="utf-8">
+        <title>Untitled</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+		<script src="main.js"></script>
+        
+        
+</head>
+<body ng-controller="mainController">
+	<h1 ng-click="makeExcited('heading1')">{{heading1}}</h1>
+	
+	<p ng-mouseover="changeColor()" class="{{fontColor}}" ng-mouseleave="changeBack()">Lorem ipsum dolor sit amet, in pri audiam ceteros disputationi, mel ne reque dicam inermis. Salutatus disputando quo cu, est delectus cotidieque et, ne pro meis tacimates. Sed et integre suscipit, impetus oporteat lobortis nec no. Eum alienum senserit definiebas no. Quidam iudicabit duo an. Platonem inciderint vim id, eruditi abhorreant ex vel.</p>
+
+	<a href="https://www.facebook.com/" ng-hide="linkHide" ng-click="clickConfirm($event)">It's Just Facebook</a>
+	
+	<h2 ng-click="makeExcited('heading2')">{{heading2}}</h2>
+	
+	<p>Lorem ipsum dolor sit amet, in pri audiam ceteros disputationi, mel ne reque dicam inermis. Salutatus disputando quo cu, est delectus cotidieque et, ne pro meis tacimates. Sed et integre suscipit, impetus oporteat lobortis nec no. Eum alienum senserit definiebas no. Quidam iudicabit duo an. Platonem inciderint vim id, eruditi abhorreant ex vel.</p>
+
+	<a href="https://www.google.com/">It's Just Google This Time</a>
+
+
+</body>
+</html>
